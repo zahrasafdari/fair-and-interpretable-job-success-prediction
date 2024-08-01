@@ -37,7 +37,6 @@ The project uses the "HR Analytics Employee Performance" dataset, which includes
 ### Deep Learning
 
 - **Neural Networks:** Implement a deep neural network with multiple layers to capture complex patterns.
-- **Attention Mechanisms:** Use attention mechanisms to focus on the most relevant features.
 
 ## Fairness and Bias Mitigation
 
@@ -76,27 +75,7 @@ This project offers a comprehensive approach to HR analytics by integrating adva
 Install the required packages using:
 
 ```bash
-pip install -r requirements.txt
-```
-
-Or individually:
-
-```bash
 pip install pandas numpy scikit-learn category_encoders xgboost lightgbm catboost tensorflow fairlearn shap
 ```
 
-## Usage
 
-1. **Load and Preprocess Data:** Execute the preprocessing steps as described.
-2. **Train Models:** Train and evaluate ensemble methods and deep learning models.
-3. **Evaluate Fairness:** Assess and mitigate biases in the models.
-4. **Explain Predictions:** Use SHAP and LIME for interpretability.
-5. **Deploy and Monitor:** Implement and monitor the model in a production environment.
-
-## Contact
-
-For questions or feedback, please contact [Your Name] at [Your Email].
-
----
-
-Feel free to customize this README with specific details or instructions related to your project as needed!
